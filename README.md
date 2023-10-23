@@ -1,1 +1,1 @@
-# colorAleatorio
+# colorAleatorio realizado en JavaScript
