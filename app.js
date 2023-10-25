@@ -13,8 +13,10 @@ function generarColorAleatorio() {
   return color2;
 }
 
-boton.addEventListener('click', function() {
+function actualizarColorAl(){
   let colorAleatorio = generarColorAleatorio();
   color.textContent = colorAleatorio;
   document.body.style.backgroundColor = colorAleatorio;
-});
+}
+
+boton.addEventListener('click', actualizarColorAl);
